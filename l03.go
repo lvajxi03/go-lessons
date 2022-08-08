@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+	defer fmt.Println("That's all folks!")
 	// Const
 	const pi = 4 // World falling apart
 	// Basic types:
